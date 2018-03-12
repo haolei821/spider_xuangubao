@@ -1,13 +1,8 @@
-
 # coding: utf-8
-
-# In[23]:
-
 
 import requests
 from lxml import etree
 import pandas as pd
-
 
 # 选股宝code格式603104.SS 300148.SZ
 def get_symbol(code):
@@ -59,10 +54,4 @@ def main():
     print(df)
     
 main()
-
-
-# In[ ]:
-
-
-
 
